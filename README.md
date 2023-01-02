@@ -10,6 +10,14 @@ The pixel is based on the RGB color model, where a color is formed by combining 
 
 Therefore, image processing consists of techniques where their input and output are images, enabling the application of noise reduction, contrast enhancement, image subtraction and other processing for human and computational interpretation, for easthetic purposes, storage and transmission.
 
+## **Dependencies and Development Environment**
+
+All techniques presented here were implemented in *Google Collaboratory* using the Python programming language and the following dependencies:
+
+- PIL (Python Imaging Library)
+- Matplotlib
+- Numpy
+
 ## **References**
 
 BATISTA, L. V. **Processamento digital de imagens**. 2022. 428 slides.
