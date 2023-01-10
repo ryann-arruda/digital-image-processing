@@ -26,9 +26,9 @@ Initially, it's important to understand how to load and display an image, as wel
 First, to make programming practice easier, we'll move our desktop into the images folder as follows:
 
 ```python
-	os.chdir("/content/Drive/MyDrive/@DIP/Images")
-	os.getcwd()
-	os.listdir()
+os.chdir("/content/Drive/MyDrive/@DIP/Images")
+os.getcwd()
+os.listdir()
 ```
 
 ## **References**
