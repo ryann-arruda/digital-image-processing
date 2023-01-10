@@ -17,6 +17,7 @@ All techniques presented here were implemented in *Google Collaboratory* using t
 - PIL (Python Imaging Library)
 - Matplotlib
 - Numpy
+- OS
 
 ## **Implementation of Techniques**
 
