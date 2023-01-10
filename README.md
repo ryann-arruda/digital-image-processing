@@ -18,6 +18,18 @@ All techniques presented here were implemented in *Google Collaboratory* using t
 - Matplotlib
 - Numpy
 
+## **Implementation of Techniques**
+
+Initially, it's important to understand how to load and display an image, as well as how to access a pixel using dependencies.
+ 
+First, to make programming practice easier, we'll move our desktop into the images folder as follows:
+
+```python
+	os.chdir("/content/Drive/MyDrive/@DIP/Images")
+	os.getcwd()
+	os.listdir()
+```
+
 ## **References**
 
 BATISTA, L. V. **Processamento digital de imagens**. 2022. 428 slides.
