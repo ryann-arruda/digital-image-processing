@@ -35,7 +35,7 @@ Now, to make programming practice easier, let's move our workspace inside the im
 os.chdir("/content/Drive/MyDrive/@DIP/Images")
 ```
 
-Then we'll display an image through the following instruction:
+We'll then load and store an image via the following statement
 
 ```python
 image = Image.open("fruits.jpg")
