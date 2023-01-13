@@ -22,13 +22,23 @@ All techniques presented here were implemented in *Google Collaboratory* using t
 ## **Implementation of Techniques**
 
 Initially, it's important to understand how to load and display an image, as well as how to access a pixel using dependencies.
+
+First, it's important to know which image formats are accepted by the PIL library, so to check this we run the following command:
+
+```python
+features.pilinfo()
+```
  
-First, to make programming practice easier, we'll move our desktop into the images folder as follows:
+Now, to make programming practice easier, let's move our workspace inside the images folder, as follows:
 
 ```python
 os.chdir("/content/Drive/MyDrive/@DIP/Images")
-os.getcwd()
-os.listdir()
+```
+
+Then we'll display an image through the following instruction:
+
+```python
+image = Image.open("fruits.jpg")
 ```
 
 ## **References**
