@@ -35,10 +35,42 @@ Now, to make programming practice easier, let's move our workspace inside the im
 os.chdir("/content/Drive/MyDrive/@DIP/Images")
 ```
 
-We'll then load and store an image via the following statement
+We'll then load and store an image via the following statement:
 
 ```python
 image = Image.open("fruits.jpg")
+```
+
+Now, it's important to know how to display an image to check what's happening when you apply any technique. So, to display an image just run the command below.
+
+```python
+plt.imshow(image)
+```
+
+Finally, let's get to know how to access any pixel of an image easily. However, it's first necessary to convert an image to a Numpy Array, but this is done extremely easily, as we can see below.
+
+```python
+image_arr = np.array(image)
+```
+
+So, to explain how to access any pixel, we'll give three examples.
+
+1. Accessing the first pixel (0,0):
+
+```python
+image_arr[0][0]
+```
+
+2. Accessing the pixel located in the fifth row and tenth column (5,10)
+
+```python
+image_arr[5][10]
+```
+
+3. Accessing the pixel located in the hundredth row and fourteenth column (100, 14)
+
+```python
+image_arr[100][14]
 ```
 
 ## **References**
