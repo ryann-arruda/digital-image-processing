@@ -73,6 +73,16 @@ image_arr[5][10]
 image_arr[100][14]
 ```
 
+**OBS.<sub>1</sub>:** Note that the number of pixels depends on the image.
+
+**OBS.<sub>2</sub>:** When we display a pixel, it's shown as a vector, as we can see below.
+
+```python
+[103  99  100]
+```
+
+Each vector position represents the red, green, and blue components, in that order.
+
 ## **References**
 
 BATISTA, L. V. **Processamento digital de imagens**. 2022. 428 slides.
