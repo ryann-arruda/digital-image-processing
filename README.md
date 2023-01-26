@@ -61,13 +61,13 @@ So, to explain how to access any pixel, we'll give three examples.
 image_arr[0][0]
 ```
 
-2. Accessing the pixel located in the fifth row and tenth column (5,10)
+2. Accessing the pixel located in the fifth row and tenth column (5,10):
 
 ```python
 image_arr[5][10]
 ```
 
-3. Accessing the pixel located in the hundredth row and fourteenth column (100, 14)
+3. Accessing the pixel located in the hundredth row and fourteenth column (100, 14):
 
 ```python
 image_arr[100][14]
@@ -82,6 +82,20 @@ image_arr[100][14]
 ```
 
 Each vector position represents the red, green, and blue components, in that order.
+
+### **Displaying Color Channels Individually**
+
+To display a color channel without interference from another, we must redefine which ones shouldn't contribute by accessing the pixels, as explained, assigning them the value 0.
+
+So, to display the red color channel of an image, for example, we must redefine the green and blue color channels as follows.
+
+```python
+image_r[:,:,1] = 0
+image_r[:,:,2] = 0
+```
+ For the other channels, we do it in a similar way.
+ 
+ OBS.: The complete code can be seen by [clicking here](https://github.com/ryann-arruda/digital-image-processing/blob/master/digital_image_processing.ipynb).
 
 ## **References**
 
