@@ -95,7 +95,7 @@ image_r[:,:,2] = 0
 ```
  For the other channels, we do it in a similar way.
  
- OBS.: The complete code can be seen by [clicking here](https://github.com/ryann-arruda/digital-image-processing/blob/master/digital_image_processing.ipynb).
+ **OBS.:** The complete code can be seen by [clicking here](https://github.com/ryann-arruda/digital-image-processing/blob/master/digital_image_processing.ipynb).
 
 ## **References**
 
