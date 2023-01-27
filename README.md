@@ -89,7 +89,7 @@ To display a color channel without interference from another, we must redefine w
 
 Then, consider the following image.
 
-![fruits](https://user-images.githubusercontent.com/53544629/215171341-c1c0d79a-701c-4216-ae38-4dddbf26eadb.jpg)
+![reference image](https://user-images.githubusercontent.com/53544629/215173991-21749a5d-2a18-4d09-aa83-c97582c922c3.png)
 
 So, to display the red color channel of this image, for example, we must redefine the green and blue color channels as follows.
 
