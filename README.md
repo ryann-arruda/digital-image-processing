@@ -93,6 +93,11 @@ So, to display the red color channel of an image, for example, we must redefine 
 image_r[:,:,1] = 0
 image_r[:,:,2] = 0
 ```
+
+The result when displaying the image is shown below.
+
+![red color channel](https://user-images.githubusercontent.com/53544629/215169226-85022461-ca19-40b7-856a-ee73d13be8e6.png)
+
  For the other channels, we do it in a similar way.
  
  **OBS.:** The complete code can be seen by [clicking here](https://github.com/ryann-arruda/digital-image-processing/blob/master/digital_image_processing.ipynb).
