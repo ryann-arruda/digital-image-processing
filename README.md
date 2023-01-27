@@ -87,7 +87,11 @@ Each vector position represents the red, green, and blue components, in that ord
 
 To display a color channel without interference from another, we must redefine which ones shouldn't contribute by accessing the pixels, as explained, assigning them the value 0.
 
-So, to display the red color channel of an image, for example, we must redefine the green and blue color channels as follows.
+Then, consider the following image.
+
+![fruits](https://user-images.githubusercontent.com/53544629/215171341-c1c0d79a-701c-4216-ae38-4dddbf26eadb.jpg)
+
+So, to display the red color channel of this image, for example, we must redefine the green and blue color channels as follows.
 
 ```python
 image_r[:,:,1] = 0
