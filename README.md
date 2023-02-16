@@ -115,9 +115,9 @@ So researchers started studying how to encode RGB values into the TV signal. So 
 In this sense, the National Television Standard Committee (NTSC) system defined the YIQ color space, where Y is the luminance and I, Q are the chrominances.
 
 $$
-Y = 0.299R + 0.587G + 0.114B
-I = 0.596R - 0.274G - 0.322B
-Q = 0.211R - 0.523G + 0.312B
+Y = 0.299R + 0.587G + 0.114B \
+I = 0.596R - 0.274G - 0.322B \
+Q = 0.211R - 0.523G + 0.312B \
 $$
 
 ## **References**
