@@ -105,6 +105,20 @@ The result when displaying the image is shown below.
  For the other channels, we do it in a similar way.
  
  **OBS.:** The complete code can be seen by [clicking here](https://github.com/ryann-arruda/digital-image-processing/blob/master/digital_image_processing.ipynb).
+ 
+ ### **Conversion from RGB color space to YIQ color space**
+ 
+The first TVs displayed images in black and white, however, when new TVs that displayed images in color began to be sold, it was important to offer compatibility with the old system so that people didn't have to change sets.
+
+So researchers started studying how to encode RGB values into the TV signal. So they decided to add two chrominance components in addition to the luminance that already enabled black and white images on older systems.
+
+In this sense, the National Television Standard Committee (NTSC) system defined the YIQ color space, where Y is the luminance and I, Q are the chrominances.
+
+$$
+Y = 0.299R + 0.587G + 0.114B
+I = 0.596R - 0.274G - 0.322B
+Q = 0.211R - 0.523G + 0.312B
+$$
 
 ## **References**
 
