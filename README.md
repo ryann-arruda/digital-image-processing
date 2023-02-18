@@ -110,7 +110,7 @@ The result when displaying the image is shown below.
  
 The first TVs displayed images in black and white, however, when new TVs that displayed images in color began to be sold, it was important to offer compatibility with the old system so that people didn't have to change sets.
 
-So researchers started studying how to encode RGB values into the TV signal. So they decided to add two chrominance components in addition to the luminance that already enabled black and white images on older systems.
+So researchers started studying how to encode RGB values into the TV signal. So they decided to add two chrominance (color information) components in addition to the luminance that already enabled black and white images on older systems.
 
 In this sense, the National Television Standard Committee (NTSC) system defined the YIQ color space, where Y is the luminance and I, Q are the chrominances.
 
@@ -119,6 +119,10 @@ $$ Y = 0.299R + 0.587G + 0.114B $$
 $$ I = 0.596R - 0.274G - 0.322B $$
 
 $$ Q = 0.211R - 0.523G + 0.312B $$
+
+Also, it's important to note that the YIQ color space is only used for transmission, not for display, so if you try to display a strange image will appear, as we can see below.
+
+![trying_to_displaying_the_YIQ_image](https://user-images.githubusercontent.com/53544629/219824622-6e35d939-76fd-4002-8d39-67f00a4cabb2.png)
 
 ## **References**
 
