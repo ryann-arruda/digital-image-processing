@@ -137,3 +137,9 @@ $$ B = Y - 1.106I + 1.702Q $$
 BATISTA, L. V. **Processamento digital de imagens**. 2022. 428 slides.
 
 GONZALEZ, R. C.; WOODS, R. E.**Digital Image Processing**. 4. ed. New York: Pearson, 2018.
+
+GUNJAL, B.L.; MALI, S. N. Comparative Performance Analysis of DWT-SVD Based Color Image Watermarking Technique in YUV, RGB and YIQ Color Spaces. International Journal of Computer Theory and Engineering, \[S.I.\], v. 3, n. 6, p. 714-719, Dec. 2011.
+
+IBRAHEEM, N. A. et al. Understanding Color Models: A Review. ARPN Journal of Science and Technology, \[S.I.\], v. 2, n. 3, p. 265-275, Apr. 2012.
+
+TKALCIC, M.; TASIC, J. F. Colour spaces - perceptual, historical and applicational background. The IEEE Region 8 EUROCON 2003. Computer as a Tool, Ljubljana, v.1, p. 304-308, 2003.
