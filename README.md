@@ -122,7 +122,7 @@ $$ Q = 0.211R - 0.523G + 0.312B $$
 
 Also, it's important to note that the YIQ color space is only used for transmission, not for display, so if you try to display a strange image will appear, as we can see below.
 
-![trying_to_displaying_the_YIQ_image](https://user-images.githubusercontent.com/53544629/219825949-e26c478e-007e-4174-a2f7-1c31a2fcb099.png)
+![trying_to_displaying_the_YIQ_image](https://user-images.githubusercontent.com/53544629/221473672-f61b6755-169e-43c7-947e-5f703893181f.png)
 
 Thus, after receiving the transmitted image, it's necessary to convert it to the RGB color space to display it. 
 
