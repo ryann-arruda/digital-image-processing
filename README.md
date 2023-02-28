@@ -132,6 +132,8 @@ $$ G = Y - 0.272I - 0.647Q $$
 
 $$ B = Y - 1.106I + 1.702Q $$
 
+ **OBS.:** The complete code can be seen by [clicking here](https://github.com/ryann-arruda/digital-image-processing/blob/master/digital_image_processing.ipynb).
+
 ## **References**
 
 BATISTA, L. V. **Processamento digital de imagens**. 2022. 428 slides.
